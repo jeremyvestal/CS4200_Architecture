@@ -1,0 +1,81 @@
+NOTE: THE PROGRAM DOES NOT WRITE OUTPUT TO A FILE, THIS IS PASTED FROM THE TERMINAL
+
+OUTPUT START -----------------------------------------------------------------------------------
+
+Jeremy's Mem Access Analyzer
+Enter filename to analyze: C:\Users\jnvst\Downloads\VestalJeremyMemAnalyzerProject\code.s
+
+Instruction trace:
+Line 1: Unknown
+Line 2: sw reg=x10 offset=0
+Line 3: Unknown
+Line 4: sw reg=x10 offset=4
+Line 5: Unknown
+Line 6: sw reg=x10 offset=8
+Line 7: Unknown
+Line 8: sw reg=x10 offset=12
+Line 9: Unknown
+Line 10: sw reg=x10 offset=16
+Line 11: Unknown
+Line 12: sw reg=x10 offset=20
+Line 13: Unknown
+Line 14: sw reg=x10 offset=24
+Line 15: Unknown
+Line 16: sw reg=x10 offset=28
+Line 17: Unknown
+Line 18: sw reg=x10 offset=32
+Line 19: Unknown
+Line 20: sw reg=x11 offset=0
+Line 21: Unknown
+Line 22: sw reg=x11 offset=4
+Line 23: Unknown
+Line 24: sw reg=x11 offset=8
+Line 25: Unknown
+Line 26: sw reg=x11 offset=12
+Line 27: Unknown
+Line 28: sw reg=x11 offset=16
+Line 29: Unknown
+Line 30: sw reg=x11 offset=20
+Line 31: Unknown
+Line 32: sw reg=x11 offset=24
+Line 33: Unknown
+Line 34: sw reg=x11 offset=28
+Line 35: Unknown
+Line 36: sw reg=x11 offset=32
+Line 37: Unknown
+Line 38: Unknown
+Line 39: Unknown
+Line 40: lw reg=x10 offset=0
+Line 41: lw reg=x11 offset=0
+Line 42: Unknown
+Line 43: sw reg=x12 offset=0
+Line 44: Unknown
+Line 45: Unknown
+Line 46: Unknown
+Line 47: Unknown
+Line 48: Unknown
+Line 49: Unknown
+
+Summary:
+
+File: C:\Users\jnvst\Downloads\VestalJeremyMemAnalyzerProject\code.s
+Total instructions: 49
+Memory: 21 (42.9%)
+  Loads: 2
+  Stores: 19
+Non-memory: 28
+
+Unique offsets: 9
+Avg stride: 6.4 bytes
+Spatial locality: 90.0%
+
+Registers: x10, x11, x12
+  x10: [0, 4, 8, 12, 16, 20, 24, 28, 32]
+  x11: [0, 4, 8, 12, 16, 20, 24, 28, 32]
+  x12: [0]
+
+Most frequent offset: 0 (5 accesses)
+
+Press Enter to exit...
+
+OUTPUT END -------------------------------------------------------------------------------------------
